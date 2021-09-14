@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'classApp',
+    'classApp', #have to register the app here, otherwise DjangoClasses wouldn't be called.
 ]
 
 MIDDLEWARE = [
